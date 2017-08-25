@@ -9,8 +9,8 @@
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10",
     "react-svg-loader": "^1.1.1"
-  },
-  "homepage": "https://j2zen.github.io/todo-list/project1/build",
+  },         
+  "homepage": "https://bruce158.github.io/react-todo-list/project1/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
