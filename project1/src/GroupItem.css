@@ -1,0 +1,33 @@
+@import url("./iconfont/iconfont.css");
+ 
+.GroupItem {
+ padding: .5em;
+ display: flex;
+ align-items: center;
+ border-bottom: 1px solid #ddd;
+ color: #555;
+}
+
+.GroupItem .group-title {
+  flex-grow: 0.8; 
+  /* padding: 0 2em 0 2em;  */
+  text-align: left;
+  width: 8em;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.GroupItem.selected{
+  color: #0f88eb;
+  border-bottom: 1px solid #0f88eb;
+}
+
+.GroupItem>.del-btn {
+  display: none;
+}  
+
+.GroupItem.selected>.del-btn {
+  display: inline-block;
+  cursor: pointer;
+}  

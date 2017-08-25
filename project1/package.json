@@ -1,0 +1,20 @@
+{
+  "name": "project1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "leancloud-storage": "^3.0.2",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-svg-loader": "^1.1.1"
+  },
+  "homepage": "https://j2zen.github.io/todo-list/project1/build",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

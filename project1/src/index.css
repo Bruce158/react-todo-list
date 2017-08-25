@@ -1,0 +1,13 @@
+body{
+  background: rgb(241, 241, 241);
+  background-size: cover;  
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  /* min-height: 100vh; */
+}

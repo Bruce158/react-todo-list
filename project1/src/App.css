@@ -1,0 +1,106 @@
+@import url("./iconfont/iconfont.css");
+
+.App {
+  min-height: 20em;
+  width: 100%;
+}
+
+.App header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #0f88eb;
+  text-align: center;
+}
+
+.App header h1 {
+  color: white;
+  display: inline-block;
+}
+
+.App header .tuichu-btn {
+  display: inline-block;
+  float: right;
+  margin-right: 2em; 
+  cursor: pointer;
+  font-size: 2em;
+  color: white;
+}
+
+.App .ct {
+  overflow: hidden;
+}
+
+.App .sidebar {
+  width: 250px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #aaa;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.35);
+  text-align: left;
+  padding: 0.5em;
+  float: left;
+}
+
+.App .sidebar h3 {
+  color: #0f88eb;
+}
+
+.App .sidebar .groups-wrap,.App main .todos-wrap  {
+  overflow-y:scroll;
+  max-height: 50vh;
+  margin-top: 20px;
+}
+
+.App .sidebar .groups li:last-child .GroupItem {
+  border-bottom:none;
+} 
+
+::-webkit-scrollbar {
+  width:0.5em;
+}
+/* 滚动槽 */
+  ::-webkit-scrollbar-track {
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+  border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius:10px;
+  background:rgba(0,0,0,0.1);
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  /* background:#0f88eb; */
+}
+
+.App main{
+  width: 600px;
+  margin: 35px auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.35);
+  text-align: center;
+  padding: 0.5em;
+}
+
+.App main h3 {
+  color: #0f88eb;
+  overflow: hidden;
+  margin: 0.5em;
+}
+
+.App main li{
+  margin-left:0.5em; 
+  text-align: left;
+}
+
+.App main a {
+  cursor: pointer;
+  color: #ddd;
+}
+
+
+
